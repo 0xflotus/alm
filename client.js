@@ -1,8 +1,8 @@
 var jayson = require("jayson");
-require("dotenv").config();
+var config = require("./config.json");
 
 var client = jayson.client.http({
-  port: process.env.SERVER_PORT
+  port: config.SERVER_PORT
 });
 
 client.request("add", [1, 15], function(err, response) {

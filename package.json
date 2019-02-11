@@ -6,7 +6,6 @@
   "author": "0xflotus <0xflotus@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^6.2.0",
     "jayson": "^2.1.2"
   }
 }
