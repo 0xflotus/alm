@@ -1,0 +1,12 @@
+{
+  "name": "alm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/0xflotus/alm.git",
+  "author": "0xflotus <0xflotus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "jayson": "^2.1.2"
+  }
+}
