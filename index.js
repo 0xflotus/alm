@@ -1,5 +1,5 @@
 var jayson = require("jayson");
-require("dotenv").config();
+var config = require("./config.json");
 
 var server = jayson.server({
   add: function(args, callback) {
@@ -7,4 +7,4 @@ var server = jayson.server({
   }
 });
 
-server.http().listen(process.env.SERVER_PORT);
+server.http().listen(config.SERVER_PORT);
